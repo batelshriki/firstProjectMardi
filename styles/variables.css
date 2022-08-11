@@ -1,0 +1,34 @@
+:root {
+  /* colors */
+  --site-purple: #9453a6;
+  --site-green: #8cbf3f;
+  --site-yellow: #f2cc0f;
+  --site-white: #f2f2f2;
+  --site-black: #0d0d0d;
+
+  /* font families */
+  --headlines-font: "Pattaya", sans-serif;
+  --text-font: "Roboto", sans-serif;
+
+  /* font weights */
+  --text-100: 100;
+  --text-200: 200;
+  --text-300: 300;
+  --text-400: 400;
+  --text-500: 500;
+  --text-600: 600;
+  --text-700: 700;
+  --text-900: 900;
+
+  /* font sizes */
+  --font-1: 1em;
+  --font-2: 1.25em;
+  --font-3: 1.5em;
+  --font-4: 1.75em;
+  --font-5: 2em;
+  --font-6: 2.25em;
+  --font-7: 2.5em;
+  --font-8: 3.5rem;
+  --font-9: 4em;
+  --font-10: 5em;
+}

@@ -1,0 +1,15 @@
+h3 {
+  margin-top: -5%;
+  text-align: center;
+  font: var(--headlines-font);
+  font-size: var(--font-6);
+  font-weight: var(--font-4);
+}
+
+.card img {
+  max-width: 400px;
+}
+
+.sponsors-area {
+  margin-bottom: 2%;
+}

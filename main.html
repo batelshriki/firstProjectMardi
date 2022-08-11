@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- bootsrap import -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+
+    <!-- google fonts Pattaya -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pattaya&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- google fonts ROBOTO -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pattaya&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- custom CSS -->
+
+    <link rel="stylesheet" href="./styles/variables.css" />
+    <link rel="stylesheet" href="./styles/general.css" />
+    <link rel="stylesheet" href="./styles/nav_bar.css" />
+    <link rel="stylesheet" href="./styles/sponsors.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/media_queries.css" />
+
+    <title>Mardi Gra 2022</title>
+  </head>
+  <body>
+    <!-- top nav bar -->
+    <header class="container-fluid head">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-lg top-nav">
+          <a href="./index.html" target="_self" class="navbar-brand"
+            ><img
+              src="./assets/icons/logo.png"
+              alt="mardi gra logo"
+              class="logo"
+          /></a>
+          <a
+            href="./index.html"
+            target="_self"
+            class="nav-link nav-link-active nav-text active"
+            aria-current="page"
+            >Home</a
+          >
+          <a href="./pages/about.html" target="_self" class="nav-link nav-text"
+            >About</a
+          >
+          <a href="./pages/media.html" target="_self" class="nav-link nav-text"
+            >Media</a
+          >
+          <a
+            href="./pages/faq.html"
+            target="_self"
+            class="nav-link nav-right nav-text"
+            >Faq</a
+          >
+          <a
+            href="./pages/contact.html"
+            target="_self"
+            class="nav-link nav-text"
+            >Contact</a
+          >
+        </div>
+      </nav>
+    </header>
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="4"
+          aria-label="Slide 5"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="5"
+          aria-label="Slide 6"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./assets/pictures/mask.avif"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="carousel-headline">Mardi Gra 2022</h5>
+            <p class="carousel-description">
+              It's that time of the year again!
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/pictures/carnival dancer.avif"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="carousel-headline">Dance with us</h5>
+            <p class="carousel-description">
+              Our dancers will move your hearts.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/pictures/mask collection.avif"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="carousel-headline">Get your mask on!</h5>
+            <p class="carousel-description">
+              Costumes and masks are the thing of the present.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/pictures/yellow smoke figurine.avif"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="carousel-headline">Extasy is in the air</h5>
+            <p class="carousel-description">
+              Come celebrate the beauty of Mardi Gra with a bang!
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/pictures/carnival statue.avif"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="carousel-headline">Create memories</h5>
+            <p class="carousel-description">
+              Guaranteed to make memories of a lifetime!
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/pictures/creepy costume.avif"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="carousel-headline">Enjoy!</h5>
+            <p class="carousel-description">Take part in a joyous tradition!</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <main class="container-lg container-md container-sm main-content">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="main-headline">Mardi Gras is Finally Here!</h1>
+        </div>
+        <div
+          class="col-lg-4 col-mid-4 col-sm-4 underline-yellow underline"
+        ></div>
+        <div
+          class="col-lg-4 col-mid-4 col-sm-4 underline-green underline"
+        ></div>
+        <div
+          class="col-lg-4 col-mid-4 col-sm-4 underline-purple underline"
+        ></div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 left-column">
+          <h2>When is Mardi Gras?</h2>
+          <p>
+            Mardi Gras is traditionally celebrated on “Fat Tuesday,” the Tuesday
+            before Ash Wednesday and the start of Lent. In many areas, however,
+            Mardi Gras has evolved into a week-long festival.
+          </p>
+          <p>
+            Mardi Gras 2022 fell on Tuesday, March 1. Following two years of
+            cancelled events due to the COVID-19 pandemic, celebrations in New
+            Orleans took place in 2022.
+          </p>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 right-column">
+          <h2 class="">What is Mardi Gras?</h2>
+          <p>
+            Mardi Gras is a tradition that dates back thousands of years to
+            pagan celebrations of spring and fertility, including the raucous
+            Roman festivals of Saturnalia and Lupercalia.
+          </p>
+          <p>
+            When Christianity arrived in Rome, religious leaders decided to
+            incorporate these popular local traditions into the new faith, an
+            easier task than abolishing them altogether. As a result, the excess
+            and debauchery of the Mardi Gras season became a prelude to Lent,
+            the 40 days of fasting and penance between Ash Wednesday and Easter
+            Sunday.
+          </p>
+          <p>
+            Along with Christianity, Mardi Gras spread from Rome to other
+            European countries, including France, Germany, Spain and England.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 left-column">
+          <h2>What Does Mardi Gras Mean?</h2>
+          <p>
+            Mardi is the French word for Tuesday, and gras means “fat.” In
+            France, the day before Ash Wednesday came to be known as Mardi Gras,
+            or “Fat Tuesday.”
+          </p>
+          <p>
+            Traditionally, in the days leading up to Lent, merrymakers would
+            binge on all the rich, fatty foods—meat, eggs, milk, lard and
+            cheese—that remained in their homes, in anticipation of several
+            weeks of eating only fish and different types of fasting.
+          </p>
+          <p>
+            The word carnival, another common name for the pre-Lenten
+            festivities, also derives from this feasting tradition: in Medieval
+            Latin, carnelevarium means to take away or remove meat, from the
+            Latin carnem for meat.
+          </p>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 right-column">
+          <h2 class="">What is Mardi Gras?</h2>
+          <p>
+            Mardi Gras is a tradition that dates back thousands of years to
+            pagan celebrations of spring and fertility, including the raucous
+            Roman festivals of Saturnalia and Lupercalia.
+          </p>
+          <p>
+            When Christianity arrived in Rome, religious leaders decided to
+            incorporate these popular local traditions into the new faith, an
+            easier task than abolishing them altogether. As a result, the excess
+            and debauchery of the Mardi Gras season became a prelude to Lent,
+            the 40 days of fasting and penance between Ash Wednesday and Easter
+            Sunday.
+          </p>
+          <p>
+            Along with Christianity, Mardi Gras spread from Rome to other
+            European countries, including France, Germany, Spain and England.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div
+          class="col-lg-4 col-mid-4 col-sm-4 underline-yellow underline"
+        ></div>
+        <div
+          class="col-lg-4 col-mid-4 col-sm-4 underline-green underline"
+        ></div>
+        <div
+          class="col-lg-4 col-mid-4 col-sm-4 underline-purple underline"
+        ></div>
+      </div>
+
+
+
+
+      <div class="sponsors-area">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <h3>Our Sponsors</h3>
+          </div>
+        </div>
+      <div class="card-group">
+        <div class="card">
+          <img src="./assets/sponsors/si_logo_L.webp" class="card-img-top imgSize" alt="...">
+          <div class="card-body">
+            <p class="card-text">T Brimming with style and grounded in our community, Sheraton
+              New Orleans Hotel is the perfect home base for your downtown
+              escape.</p>
+          
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/sponsors/Ace_Hotel.jpg" class="card-img-top imgSize" alt="...">
+          <div class="card-body">
+            <p class="card-text">  A stone’s throw from the French Quarter, in the soul of the
+              Deep South..</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/sponsors/premium parking.jpg" class="card-img-top imgSize" alt="...">
+          <div class="card-body">
+          
+            <p class="card-text">   One platform for all your parking needs. Create a seamless
+              experience with the smartest parking management solution for
+              properties, owners and parking operators..</p>
+         
+          </div>
+          
+        </div>
+        <div class="card">
+          <img src="./assets/sponsors/Haunted Museum.jpg" class="card-img-top imgSize" alt="...">
+          <div class="card-body">
+       
+            <p class="card-text">    Join Voodoo Queen Bloody Mary and her mystic staff for tours,
+              ghost hunting, séance, psychic readings, events and mystic
+              shopping..</p>
+     
+          </div>
+      </div>
+      <div class="card-group">
+        <div class="card">
+          <img src="./assets/sponsors/LCM.jpg" class="card-img-top imgSize" alt="...">
+          <div class="card-body">
+         
+            <p class="card-text">  When you make a child's potential visible, wonderful things
+              happen..</p>
+         
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/sponsors/museum of death logo.png" class="card-img-top imgSize" alt="...">
+          <div class="card-body">
+        
+            <p class="card-text">  Walk-On's is a place where over-the-top enthusiasm and culture
+              is the daily norm.</p>
+            
+          </div>
+        </div>
+        <div class="card">
+          <img src="./assets/sponsors/walkons-logo.svg" class="card-img-top imgSize" alt="...">
+          <div class="card-body">
+        
+            <p class="card-text">   Walk-On's is a place where over-the-top enthusiasm and culture
+              is the daily norm.</p>
+          
+          </div>
+          
+        </div>
+        <div class="card">
+          <img src="./assets/sponsors/ritz carlton.jpg" class="card-img-top imgSize" alt="...">
+          <div class="card-body">
+        
+            <p class="card-text">    Within a historic beaux arts building in New Orleans' French
+              Quarter, a hotel offers luxury with a local touch.</p>
+         
+          </div>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer class="text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a
+            class="btn btn-outline-light btn-floating m-1 social-circles"
+            href="https://www.facebook.com/batel.hanufa/"
+            target="_blank"
+            role="button"
+            ><i class="fab fa-facebook-f">F</i></a
+          >
+
+          <!-- Twitter -->
+          <a
+            class="btn btn-outline-light btn-floating m-1 social-circles"
+            href=""
+            target="_blank"
+            role="button"
+            ><i class="fab fa-twitter">T</i></a
+          >
+
+          <!-- Google -->
+          <a
+            class="btn btn-outline-light btn-floating m-1 social-circles"
+            href="#!"
+            role="button"
+            ><i class="fab fa-google">G</i></a
+          >
+
+          <!-- Instagram -->
+          <a
+            class="btn btn-outline-light btn-floating m-1 social-circles"
+            href="https://www.instagram.com/batel.shriki/"
+            role="button"
+            ><i class="fab fa-instagram">I</i></a
+          >
+
+          <!-- Linkedin -->
+          <a
+            class="btn btn-outline-light btn-floating m-1 social-circles"
+            href=""
+            target="_blank"
+            role="button"
+            ><i class="fab fa-linkedin-in">Li</i></a
+          >
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: var(--site-purple)">
+        © 2022 Copyright:
+        <a class="text-white" href="">Batel Shriki</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <!-- bootstrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+@media only screen and (max-width: 576px) {
+  .underline {
+    width: 33%;
+  }
+}
+
+@media only screen and (max-width: 1390px) {
+  .gallery-image {
+    max-width: 85%;
+    margin-bottom: 4%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .gallery-image {
+    max-width: 100%;
+    margin-bottom: 4%;
+  }
+}
+
+@media only screen and (max-width: 1390px) {
+  iframe {
+    max-width: 85%;
+    margin-bottom: 4%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  iframe {
+    max-width: 110%;
+    margin-bottom: 4%;
+  }
+}

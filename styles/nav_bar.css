@@ -1,0 +1,47 @@
+.head {
+  background-color: var(--site-white);
+  height: min(10rem - 20px, 200px);
+}
+
+.content-bg {
+  background-color: var(--site-green);
+  height: 100%;
+}
+
+.headline1 {
+  font-family: var(--headlines-font);
+  font-size: 5rem;
+  font-weight: var(--text-900);
+}
+
+.logo {
+  width: 100px;
+}
+
+.top-nav {
+  display: flex;
+}
+
+.nav-right {
+  margin-left: auto;
+}
+
+.nav-text {
+  color: var(--site-black);
+  font-family: var(--text-font);
+  font-weight: var(--text-400);
+  font-size: var(--font-3);
+}
+
+.nav-link:hover {
+  color: var(--site-purple);
+}
+
+.active {
+  color: var(--site-purple);
+  border-bottom: 2px solid var(--site-purple);
+}
+
+.nav-text {
+  text-decoration: 2px solid var(--site-purple) !important;
+}
